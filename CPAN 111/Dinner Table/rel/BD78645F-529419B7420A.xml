@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="BD78645F-9DBC-51B0-A50F-529419B7420A" mainViewID="BE04D146-DC4C-BBEE-2AA6-BAE38BC44460">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:45:43 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

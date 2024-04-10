@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9CBEA69-937A-4696-B77A-F97E0A5D14BA" name="Invitation">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>8EDDF324-CF43-A6D2-3561-B97A269A77F7</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<ordsAlias>products</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Invitation_num" id="50928A41-95DA-8C29-BDF9-EEEA44911F21">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>B361AD83-2C9E-9C36-599D-530CF4DB5B00</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invite_date" id="5D50BC8F-FDA2-4186-3E06-3F20EF1AB514">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>54254656-B874-79C4-C9D0-09196214E8D9</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accept_date" id="C8B3F4E6-AB9B-33D1-35BC-627343D8B373">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>62786EDD-0A27-E1C3-B04A-D4F398752ACB</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NULL SET GENERATED_61" id="A854786D-8DEA-4767-F835-CA8D3130567D">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>5C228226-4B88-78F0-44A4-8E79AB987571</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D1060BE-9D6D-3A50-500C-6FFB99CFD731" referredColumn="82F7A257-958D-064F-616A-5AE224185867"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75CEBB60-9A86-E2BC-8E02-D5CE9C6BBE58" name="products_PK">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>2CB08E17-8FC4-B66B-37FD-2468D7CBAA3C</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50928A41-95DA-8C29-BDF9-EEEA44911F21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FCC032F-7CF3-C101-EC05-FCA07E7F16B1" name="products_product_category_FK">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>38693BF9-03CB-88FE-9097-4C0A7D6BEBBF</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A854786D-8DEA-4767-F835-CA8D3130567D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

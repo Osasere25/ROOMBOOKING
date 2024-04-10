@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E26BF031-4C89-6E5E-5776-8F45391FA07B" name="Dinner">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:57:10 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Dinner_code" id="7C58D295-45D9-2282-EE37-CA220739EED2">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:47:12 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dinner_date" id="12F245DE-D355-93C7-39D1-5FD26A99AD8A">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:57:26 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dinner_attended" id="C80432FF-8F32-D074-3ED8-12ECF561C8E4">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:57:52 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dinner_description" id="BC55B876-586B-13A1-0B48-82D700BA06C5">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:47:55 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dessert_code" id="20582514-3E4C-585B-310C-AE553D62C80B">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 01:15:40 UTC</createdTime>
+<generatorID>9921AC95-A991-1399-7EF0-D4923721784D</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<referedAttribute>B86021F7-4AA4-A454-574B-13BDF71CA7FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Entree_code" id="F3C47A0D-7D83-2A92-2837-06C3FEA019E0">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 01:06:53 UTC</createdTime>
+<generatorID>C2BC9174-94FF-A2D7-C230-CE7C0BF4EC95</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<referedAttribute>7421C843-459F-B918-8F60-A2E2574B5FAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9301F623-E4EA-C00F-D560-58A1821A4102" name="Key_1">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:58:32 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7C58D295-45D9-2282-EE37-CA220739EED2</newElementsIDs>
+<usedAttributes>
+<attributeRef>7C58D295-45D9-2282-EE37-CA220739EED2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

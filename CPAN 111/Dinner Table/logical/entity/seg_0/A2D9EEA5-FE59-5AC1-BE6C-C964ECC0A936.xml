@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2D9EEA5-FE59-5AC1-BE6C-C964ECC0A936" name="Entree">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:48:25 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Entree_code" id="7421C843-459F-B918-8F60-A2E2574B5FAF">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:48:32 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Entree_description" id="D57A1F0A-ACFA-6A7F-9028-576C15FE8417">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:49:02 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="693E60C0-DF82-A8C5-4174-8F7E37DAED77" name="Entree PK">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:50:27 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7421C843-459F-B918-8F60-A2E2574B5FAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="10CEF321-DC04-FA2E-1A6E-C3F85E65333B" name="FKArc_1">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>46E5A6E5-CB68-BB58-53F4-97F304E24C49</table>
+<fkeys>
+<fkeyID>3E9E7302-F15E-7B33-82C7-6CA75FA7D8C7</fkeyID>
+<fkeyID>4C05E4B1-8DF0-6A07-D09F-221CD447BE1C</fkeyID>
+</fkeys>
+</FKArc>

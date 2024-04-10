@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="0DC1EFB2-4E42-970C-8882-A88B3315B065">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 01:16:18 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<engineerTo>
+<item key="BD78645F-9DBC-51B0-A50F-529419B7420A" value="true"/>
+</engineerTo>
+<sourcePk>2FD3A2E2-11AD-A172-578E-EA95A7214476</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B6B1454-C78C-D41E-BFA2-4357B2F63E3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8EDDF324-CF43-A6D2-3561-B97A269A77F7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10A01C10-6981-8741-1A2C-8901DE74843D" name="organisations">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>0B05617D-320B-3CA3-B4AC-7BF24D92171D</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clint_id" id="F5AE1757-E875-9CA7-59E1-1EC87257F40D">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>12F245DE-D355-93C7-39D1-5FD26A99AD8A</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C05E4B1-8DF0-6A07-D09F-221CD447BE1C" referredColumn="30B4C7E8-2CB2-357D-BF83-524D72C1E61B"/>
+</associations>
+</Column>
+<Column name="organization_name" id="E4EB759D-00F6-BFBC-79D7-A4932CA5A438">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>836C4317-80FA-07FA-7F29-0F2B288380A5</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2316BA61-DD4E-D579-3FB7-00B3C7D26413" name="organisations_PK">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>9301F623-E4EA-C00F-D560-58A1821A4102</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5AE1757-E875-9CA7-59E1-1EC87257F40D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDDBCD17-BECF-5771-8A15-9A8369C68C8D" name="organisations_clients_FK">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-10 00:02:04 UTC</createdTime>
+<generatorID>811BB9B7-D98A-C011-4445-8BC093342CB2</generatorID>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5AE1757-E875-9CA7-59E1-1EC87257F40D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

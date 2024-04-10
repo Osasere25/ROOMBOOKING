@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Dinner Table" id="6E98A427-E36E-5C64-8957-2E51EC3060B1" version="3.5">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:45:38 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6E98A427-E36E-5C64-8957-2E51EC3060B1</designId>
+</OSDM_Design>

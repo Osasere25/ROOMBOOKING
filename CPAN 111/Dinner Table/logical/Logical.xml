@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="256AA658-1217-8D4D-8DBA-082D0FFFF650" mainViewID="D6C086C2-45AF-C179-3FD4-161723ACBD6D">
+<createdBy>eobaz</createdBy>
+<createdTime>2024-04-09 23:45:38 UTC</createdTime>
+<ownerDesignName>Dinner Table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
