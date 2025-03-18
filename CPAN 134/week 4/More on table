@@ -1,0 +1,23 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Random Table</title>
+        </head>
+           
+        <body>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Description</th>
+                </tr>
+    
+                <tr>
+                    <td>Jasmine Obazogbon</td>
+                    <td>CSA3</td>
+                    <td>Customer Service agent 3</td>
+                </tr>
+            </table>
+        </body>
+
+    </html>
